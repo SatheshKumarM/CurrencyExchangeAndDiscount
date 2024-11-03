@@ -1,0 +1,30 @@
+//Request
+
+{
+  "billId": 123,
+  "productDetails": [
+    {
+      "productId": 1,
+      "productName": "Oil",
+      "isGrocery": true,
+      "price": 90.0
+    }
+  ],
+  "userInfo": {
+    "userId": 9944,
+    "name": "William",
+    "userType": "EMPLOYEE",
+    "registrationDate": "2024-11-01"
+  },
+  "originalCurrency": "USD",
+  "targetCurrency": "EUR"
+}
+
+//Response
+
+{
+    "billId": 123,
+    "userId": 45,
+    "responseTime": "2024-11-03",
+    "total": 58.07339999999999
+}
